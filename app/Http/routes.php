@@ -21,6 +21,12 @@ Route::post('incubadora',[
 );
 
 Route::get('incubadora',[
+        'uses'=>'IncubadoraController@viewLectures',
+        'as'=> 'mostrarLecturas'
+    ]
+);
+
+Route::get('getLectures',[
         'uses'=>'IncubadoraController@getLectures',
         'as'=> 'mostrarLecturas'
     ]
