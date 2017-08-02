@@ -15,19 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('incubadora',[
+Route::post('/',[
         'uses'=>'IncubadoraController@postLecture'
     ]
 );
 
-Route::get('incubadora',[
+Route::get('/',[
         'uses'=>'IncubadoraController@viewLectures',
         'as'=> 'mostrarLecturas'
     ]
 );
 
 Route::get('getLectures',[
-        'uses'=>'IncubadoraController@getLectures',
-        'as'=> 'mostrarLecturas'
+        'uses'=>'IncubadoraController@getLectures'
     ]
 );
