@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb858ef-c3ad-42cb-821b-76a0d1c26b9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/logoUTB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/simple-sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/incubadora/mostrarLecturas.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-    </list>
+    <list default="true" id="6bb858ef-c3ad-42cb-821b-76a0d1c26b9e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IncubadoraController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+              <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="67" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
                 <marker date="1501688932450" expanded="true" signature="221:262" ph="insert into lecturas... " />
@@ -412,12 +405,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501685457570</updated>
-      <workItem from="1501685459029" duration="2755000" />
+      <workItem from="1501685459029" duration="3544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2755000" />
+    <option name="totallyTimeSpent" value="3544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="21" width="1874" height="1059" extended-state="6" />
@@ -561,7 +554,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IncubadoraController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="67" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
             <marker date="1501688932450" expanded="true" signature="221:262" ph="insert into lecturas... " />
