@@ -10,7 +10,7 @@ use App\Http\Requests;
 class IncubadoraController extends Controller
 {
     public function postLecture(Request $request){
-        DB::insert('insert into lecturas (humedad) values (?)', ["1"]);
+        DB::insert('insert into lecturas (humedad, temperatura) values (?, ?)', [$request->humedad, $request->temperatura]);
     }
 
     public function getLectures(){
