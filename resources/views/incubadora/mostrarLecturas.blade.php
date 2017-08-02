@@ -20,7 +20,7 @@
             refresh();
             function refresh() {
                 var html = ""
-                $.get( "http://localhost:8000/getLectures", function( data ) {
+                $.get( "http://192.34.78.106/getLectures", function( data ) {
                     html = html+"<table class= 'table table-hover table-condensed table-responsive'><thead><th class= 'text-center'>Temperatura (°C)</th><th class= 'text-center'>% Humedad</th></thead><tbody>"
                     $(data).each(function (lectura, dat) {
                         html = html + "<tr class= 'text-center'><td>"+dat.temperatura+"</td>"+"<td>"+dat.humedad+"</td></tr>"
