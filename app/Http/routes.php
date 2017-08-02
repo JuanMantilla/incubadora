@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('incubadora',[
+        'uses'=>'IncubadoraController@postLecture'
+    ]
+);
+
+Route::get('incubadora',[
+        'uses'=>'IncubadoraController@getLectures',
+        'as'=> 'mostrarLecturas'
+    ]
+);
