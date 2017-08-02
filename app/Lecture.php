@@ -10,4 +10,6 @@ class Lecture extends Model
         'temperatura', 'humedad',
     ];
 
+    protected $timestamp = true;
+
 }
